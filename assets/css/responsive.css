@@ -1,0 +1,300 @@
+/****************max width 1200px***************/
+@media all and (max-width:1200px){
+    /*******container******/
+    .container{
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    /********section title********/
+    .section-title h2 {
+        font-size: 43px;
+        max-width: 860px;
+    }
+    /********benefit*******/
+    .benefit-ellips{
+        max-width: 45px;
+    }
+    /***mission***/
+    .mission-wrapper{
+        column-gap: 30px;
+    }
+    .mission-image{
+        max-width: 500px;
+    }
+    .mission-content h2{
+        font-size: 38px;
+        max-width: 440px;
+    }
+    .mission-content p{
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .mission-btn.btn{
+        margin-top: 25px;
+    }
+
+
+}
+
+
+/****************max width 990px***************/
+@media all and (max-width:990px){
+    .btn a{
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 33px;
+        max-width: 675px;
+    }
+    /**********header*********/
+    .logo a{
+        font-size: 35px;
+    }
+    .menu ul li a{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .header-btn{
+        margin-left: 30px;
+    }
+    .header-bottom h1{
+        font-size: 58px;
+        max-width: 745px;
+    }
+    /***mission***/
+    .mission-image {
+        max-width: 330px;
+    }
+    .mission-content h2 {
+        font-size: 28px;
+        max-width: 364px;
+        line-height: 35px;
+    }
+    .mission-content p {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .mission-area {
+        padding-bottom: 100px;
+    }
+
+}
+
+
+/****************max width 767px***************/
+@media all and (max-width:767px){
+    .section-title{
+        margin-bottom: 40px;
+    }
+    /**********body********/
+    body{
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 29px;
+        max-width: 546px;
+        line-height: 38px;
+    }
+    .benefit-ellips{
+        display: none;
+    }
+    /********mobile menu btn*******/
+    .menu-btn{
+        display: block;
+    }
+    .header-top{
+        position: relative;
+    }
+    .header-top-right{
+        display: none;
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        top: 100%;
+        left: 0;
+        background: rgba(0,0,0,.9);
+        padding: 70px 0;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul li a{
+        margin-bottom: 30px;
+    }
+    .menu ul li a::before,
+    .menu ul li a::after{
+        bottom: -15px;
+    }
+    .header-btn{
+        text-align: center;
+    }
+    .header-bottom{
+        padding-top: 75px;
+    }
+    .header-bottom h1{
+        font-size: 43px;
+        max-width: 550px;
+        line-height: 55px;
+    }
+    .logo a {
+        font-size: 33px;
+    }
+    .header-area{
+        padding: 35px 0 150px 0;
+    }
+    /*****offer*****/
+    .offer-title h2{
+        font-size: 49px;
+    }
+    .offer-vector-1{
+        max-width: 195px;
+    }
+    .offer-vector-2{
+        max-width: 230px;
+    }
+    /**partner**/
+    .partner-area {
+        padding: 50px 0 70px 0;
+    }
+
+    /*benefit*/
+    .benefit-area{
+        padding: 60px 0;
+    }
+    .table-logo{
+        font-size: 28px;
+    }
+    .table-head2{
+        font-size: 19px;
+    }
+    .table-title-row th{
+        padding: 16px 0;
+    }
+    .benefit-table td{
+        padding: 10px 0;
+    }
+    .benefit-table tr td:first-child,
+    .benefit-table tr td:last-child{
+        font-size: 13px;
+    }
+    .benefit-table tr td:nth-child(even){
+        font-size: 12px;
+    }
+    .checked i, .crossed i{
+        font-size: 20px;
+    }
+
+    /**work**/
+    .work-area {
+        padding: 60px 0 80px 0;
+    }
+    /***mission**/
+    .mission-wrapper {
+        flex-direction: column;
+    }
+    .mission-content {
+        text-align: center;
+    }
+    .mission-content h2 {
+        font-size: 28px;
+        max-width: 515px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .mission-image {
+        max-width: 430px;
+        margin-top: 30px;
+    }
+    .mission-area {
+        padding-bottom: 60px;
+    }
+    /*footer*/
+    .footer-top {
+        margin-bottom: 120px;
+    }
+
+
+
+}
+
+
+/****************max width 575px***************/
+@media all and (max-width:575px){
+    .section-title h2 {
+        font-size: 23px;
+        max-width: 455px;
+        line-height: 38px;
+    }
+    .section-title p{
+        font-size: 14px;
+    }
+    /********header*********/
+    .header-bottom{
+        padding-top: 55px;
+    }
+    .header-bottom h1 {
+        font-size: 36px;
+        line-height: 45px;
+        max-width: 455px;
+    }
+    /**offer**/
+    .offer-title h2{
+        font-size: 42px;
+    }
+    .offer-vector-1{
+        max-width: 170px;
+    }
+    .offer-vector-2{
+        max-width: 185px;
+    }
+
+
+
+
+}
+
+
+
+/****************max width 480px***************/
+@media all and (max-width:480px){
+    .section-title h2 {
+        font-size: 22px;
+        max-width: 360px;
+    }
+    /********header*********/
+    .header-bottom{
+        padding-top: 55px;
+    }
+    .header-bottom h1 {
+        font-size: 29px;
+        line-height: 45px;
+        max-width: 380px;
+    }
+    .header-bottom-btn .learn-btn{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /**offer*/
+    .offer-title h2 {
+        font-size: 34px;
+        line-height: 53px;
+    }
+    .offer-vector-1{
+        max-width: 130px;
+    }
+    .offer-vector-2{
+        max-width: 155px;
+    }
+    /**massion**/
+    .mission-content h2 {
+        font-size: 24px;
+        max-width: 360px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
